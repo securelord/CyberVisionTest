@@ -1,0 +1,12 @@
+Some notes on tasks:
+
+1. Result in 'com.cybervision.HashCodeExample'. All me notes are in the comments
+2. Result in 'com.cybervision.User'. I have described everything in the comments
+3. For example, you can offer to organize some kind of queue.
+   Variants: or a queue of entire test suites or a queue of individual tests.
+   The first option: when a request comes for a set of tests - immediately put the entire set in the queue.
+   The second option: when the set comes - put only the first test from the set to the queue, and the next one from the set - only when the first is executed.
+   Advantages: according to the first option - those kits that have come before - will end sooner,
+   by the second option - for short sets, the chance to execute earlier is increased, without waiting for the end of the length.
+   You can create multiple instances of a test environment
+   or even a pool of test environments.
